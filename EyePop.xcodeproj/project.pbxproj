@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00144C87A6F0B13CDA69348B /* Pods_EyePop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AF188979F32689F85C23E5 /* Pods_EyePop.framework */; };
+		842718522296653500F940E3 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 842718512296653400F940E3 /* Montserrat-Regular.ttf */; };
+		8427185422966E3F00F940E3 /* MapViewController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427185322966E3F00F940E3 /* MapViewController+UICollectionView.swift */; };
+		8427185722966F5400F940E3 /* LocationImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427185622966F5400F940E3 /* LocationImageCollectionViewCell.swift */; };
+		846B6B412252F72D00322A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B6B402252F72D00322A3C /* AppDelegate.swift */; };
+		846B6B432252F72D00322A3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B6B422252F72D00322A3C /* ViewController.swift */; };
+		846B6B462252F72D00322A3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846B6B442252F72D00322A3C /* Main.storyboard */; };
+		846B6B482252F72E00322A3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846B6B472252F72E00322A3C /* Assets.xcassets */; };
+		846B6B4B2252F72E00322A3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846B6B492252F72E00322A3C /* LaunchScreen.storyboard */; };
+		84A59AA12265F038006EBB50 /* MapViewController+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A59A9F2265F038006EBB50 /* MapViewController+Data.swift */; };
+		84A59AA22265F038006EBB50 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A59AA02265F038006EBB50 /* MapViewController.swift */; };
+		84A59AA62265F152006EBB50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84A59AA52265F152006EBB50 /* GoogleService-Info.plist */; };
+		84E5EC8A2277DD1800AC3195 /* cashMeOutside.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84E5EC892277DD1700AC3195 /* cashMeOutside.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07AF188979F32689F85C23E5 /* Pods_EyePop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyePop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		660CDB3DEE8746B70664858B /* Pods-EyePop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyePop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EyePop/Pods-EyePop.debug.xcconfig"; sourceTree = "<group>"; };
+		734EC255BABB0D4A28273B3A /* Pods-EyePop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyePop.release.xcconfig"; path = "Pods/Target Support Files/Pods-EyePop/Pods-EyePop.release.xcconfig"; sourceTree = "<group>"; };
+		842718512296653400F940E3 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		8427185322966E3F00F940E3 /* MapViewController+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapViewController+UICollectionView.swift"; sourceTree = "<group>"; };
+		8427185622966F5400F940E3 /* LocationImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		846B6B3D2252F72D00322A3C /* EyePop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyePop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846B6B402252F72D00322A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		846B6B422252F72D00322A3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		846B6B452252F72D00322A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846B6B472252F72E00322A3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846B6B4A2252F72E00322A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846B6B4C2252F72E00322A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A59A9F2265F038006EBB50 /* MapViewController+Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MapViewController+Data.swift"; sourceTree = "<group>"; };
+		84A59AA02265F038006EBB50 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		84A59AA52265F152006EBB50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84E5EC892277DD1700AC3195 /* cashMeOutside.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cashMeOutside.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846B6B3A2252F72D00322A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00144C87A6F0B13CDA69348B /* Pods_EyePop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		842718502296652200F940E3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				842718512296653400F940E3 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8427185522966F3800F940E3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8427185622966F5400F940E3 /* LocationImageCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		846B6B342252F72D00322A3C = {
+			isa = PBXGroup;
+			children = (
+				846B6B3F2252F72D00322A3C /* EyePop */,
+				846B6B3E2252F72D00322A3C /* Products */,
+				B791FEEA67D0A4071FE5C4C1 /* Pods */,
+				9022F787461950472860500B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		846B6B3E2252F72D00322A3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846B6B3D2252F72D00322A3C /* EyePop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846B6B3F2252F72D00322A3C /* EyePop */ = {
+			isa = PBXGroup;
+			children = (
+				8427185522966F3800F940E3 /* Cells */,
+				842718502296652200F940E3 /* Fonts */,
+				84E5EC892277DD1700AC3195 /* cashMeOutside.mp3 */,
+				84A59A9E2265F02B006EBB50 /* Map */,
+				846B6B402252F72D00322A3C /* AppDelegate.swift */,
+				846B6B422252F72D00322A3C /* ViewController.swift */,
+				846B6B442252F72D00322A3C /* Main.storyboard */,
+				846B6B472252F72E00322A3C /* Assets.xcassets */,
+				846B6B492252F72E00322A3C /* LaunchScreen.storyboard */,
+				846B6B4C2252F72E00322A3C /* Info.plist */,
+				84A59AA52265F152006EBB50 /* GoogleService-Info.plist */,
+			);
+			path = EyePop;
+			sourceTree = "<group>";
+		};
+		84A59A9E2265F02B006EBB50 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				84A59AA02265F038006EBB50 /* MapViewController.swift */,
+				84A59A9F2265F038006EBB50 /* MapViewController+Data.swift */,
+				8427185322966E3F00F940E3 /* MapViewController+UICollectionView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		9022F787461950472860500B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07AF188979F32689F85C23E5 /* Pods_EyePop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B791FEEA67D0A4071FE5C4C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				660CDB3DEE8746B70664858B /* Pods-EyePop.debug.xcconfig */,
+				734EC255BABB0D4A28273B3A /* Pods-EyePop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846B6B3C2252F72D00322A3C /* EyePop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846B6B4F2252F72E00322A3C /* Build configuration list for PBXNativeTarget "EyePop" */;
+			buildPhases = (
+				6361D1CE463F978C199AFE21 /* [CP] Check Pods Manifest.lock */,
+				846B6B392252F72D00322A3C /* Sources */,
+				846B6B3A2252F72D00322A3C /* Frameworks */,
+				846B6B3B2252F72D00322A3C /* Resources */,
+				D30D45C9D845F524191F3A7D /* [CP] Embed Pods Frameworks */,
+				7848F46C230707081251BF9F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EyePop;
+			productName = EyePop;
+			productReference = 846B6B3D2252F72D00322A3C /* EyePop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846B6B352252F72D00322A3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Faswaldo;
+				TargetAttributes = {
+					846B6B3C2252F72D00322A3C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 846B6B382252F72D00322A3C /* Build configuration list for PBXProject "EyePop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846B6B342252F72D00322A3C;
+			productRefGroup = 846B6B3E2252F72D00322A3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846B6B3C2252F72D00322A3C /* EyePop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846B6B3B2252F72D00322A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842718522296653500F940E3 /* Montserrat-Regular.ttf in Resources */,
+				84A59AA62265F152006EBB50 /* GoogleService-Info.plist in Resources */,
+				846B6B4B2252F72E00322A3C /* LaunchScreen.storyboard in Resources */,
+				846B6B482252F72E00322A3C /* Assets.xcassets in Resources */,
+				846B6B462252F72D00322A3C /* Main.storyboard in Resources */,
+				84E5EC8A2277DD1800AC3195 /* cashMeOutside.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6361D1CE463F978C199AFE21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyePop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7848F46C230707081251BF9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EyePop/Pods-EyePop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D30D45C9D845F524191F3A7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EyePop/Pods-EyePop-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Pulsator/Pulsator.framework",
+				"${BUILT_PRODUCTS_DIR}/SAConfettiView/SAConfettiView.framework",
+				"${BUILT_PRODUCTS_DIR}/ViewAnimator/ViewAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulsator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAConfettiView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViewAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EyePop/Pods-EyePop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846B6B392252F72D00322A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846B6B432252F72D00322A3C /* ViewController.swift in Sources */,
+				8427185422966E3F00F940E3 /* MapViewController+UICollectionView.swift in Sources */,
+				84A59AA12265F038006EBB50 /* MapViewController+Data.swift in Sources */,
+				8427185722966F5400F940E3 /* LocationImageCollectionViewCell.swift in Sources */,
+				846B6B412252F72D00322A3C /* AppDelegate.swift in Sources */,
+				84A59AA22265F038006EBB50 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		846B6B442252F72D00322A3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846B6B452252F72D00322A3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846B6B492252F72E00322A3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846B6B4A2252F72E00322A3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846B6B4D2252F72E00322A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846B6B4E2252F72E00322A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846B6B502252F72E00322A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 660CDB3DEE8746B70664858B /* Pods-EyePop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBJQB8PBBL;
+				INFOPLIST_FILE = EyePop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Faswaldo.EyePopApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		846B6B512252F72E00322A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 734EC255BABB0D4A28273B3A /* Pods-EyePop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBJQB8PBBL;
+				INFOPLIST_FILE = EyePop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Faswaldo.EyePopApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846B6B382252F72D00322A3C /* Build configuration list for PBXProject "EyePop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846B6B4D2252F72E00322A3C /* Debug */,
+				846B6B4E2252F72E00322A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846B6B4F2252F72E00322A3C /* Build configuration list for PBXNativeTarget "EyePop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846B6B502252F72E00322A3C /* Debug */,
+				846B6B512252F72E00322A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846B6B352252F72D00322A3C /* Project object */;
+}
